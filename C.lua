@@ -1,11 +1,3 @@
-local VirtualUser=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-VirtualUser:CaptureController()
-VirtualUser:ClickButton2(Vector2.new())
-end)
-
-warn("Anti-Afk has Loaded")
-
 _G.AutoFishing = true
 _G.TPFish = true
 _G.Gamepass = true
@@ -64,7 +56,7 @@ spawn(function()
         title=game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
         description=("Wow ".."||"..game.Players.LocalPlayer.Name.."||".." got the ".."**".."LegendaryColorPotion".."**".."\nNow your LegendaryColorPotion value is : ".."**"..game:GetService("Players").LocalPlayer.Data.Resources.LegendaryColorPotion.Value.."**"),
         type="rich",
-        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="SmellLikeHacker Webhook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
+        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="wirun sorthook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         local headers = {["content-type"]="application/json"}
         request = http_request or request or HttpPost or syn.request
@@ -78,7 +70,7 @@ spawn(function()
         title=game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
         description=("Wow ".."||"..game.Players.LocalPlayer.Name.."||".." got the ".."**".."LegendaryPupilPotion".."**".."\nNow your LegendaryPupilPotion value is : ".."**"..game:GetService("Players").LocalPlayer.Data.Resources.LegendaryPupilPotion.Value.."**"),
         type="rich",
-        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="SmellLikeHacker Webhook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
+        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="wirun Sorthook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         local headers = {["content-type"]="application/json"}
         request = http_request or request or HttpPost or syn.request
@@ -92,7 +84,7 @@ spawn(function()
         title=game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
         description=("Wow ".."||"..game.Players.LocalPlayer.Name.."||".." got the ".."**".."MutationPotion".."**".."\nNow your MutationPotion value is : ".."**"..game:GetService("Players").LocalPlayer.Data.Resources.MutationPotion.Value.."**"),
         type="rich",
-        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="SmellLikeHacker Webhook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
+        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="wirun Sorthook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         local headers = {["content-type"]="application/json"}
         request = http_request or request or HttpPost or syn.request
@@ -106,7 +98,7 @@ spawn(function()
         title=game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
         description=("Wow ".."||"..game.Players.LocalPlayer.Name.."||".." got the ".."**".."MutationCurePotion".."**".."\nNow your MutationCurePotion value is : ".."**"..game:GetService("Players").LocalPlayer.Data.Resources.MutationCurePotion.Value.."**"),
         type="rich",
-        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="SmellLikeHacker Webhook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
+        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="wirun Sorthook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         local headers = {["content-type"]="application/json"}
         request = http_request or request or HttpPost or syn.request
@@ -120,7 +112,7 @@ spawn(function()
         title=game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
         description=("Wow ".."||"..game.Players.LocalPlayer.Name.."||".." got the ".."**".."BabyPotion".."**".."\nNow your BabyPotion value is : ".."**"..game:GetService("Players").LocalPlayer.Data.Resources.BabyPotion.Value.."**"),
         type="rich",
-        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="SmellLikeHacker Webhook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
+        color=tonumber(16711680),thumbnail={url=("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png"):format(game.Players.LocalPlayer.UserId)},author={name="wirun Sorthook",icon_url=ImmageRandom[math.random(1, #ImmageRandom)]}}}}
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         local headers = {["content-type"]="application/json"}
         request = http_request or request or HttpPost or syn.request
